@@ -22,6 +22,7 @@
               </li>
             </ul>
           </div>
+
           <!-- article list(multiple article) -->
           <div
             v-for="article in articles"
@@ -30,7 +31,8 @@
           >
             <div class="article-meta">
               <a href="profile.html">
-                <img :src="article.author.image">
+                <!-- <img :src="article.author.image"> -->
+                <img src="" alt="">
               </a>
               <div class="info">
                 <a href class="author">{{ article.author.username }}</a>
